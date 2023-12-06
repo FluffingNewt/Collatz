@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "normal"
+path = "src/normal/main.rs"
+
+[[bin]]
+name = "recursed"
+path = "src/recursed/main.rs"
